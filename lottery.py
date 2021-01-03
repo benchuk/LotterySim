@@ -60,7 +60,7 @@ print()
 
 # the computer picks the numbers for each ticket sold
 # tickets_sold = 500
-tickets_sold = 500
+tickets_sold = 1000
 print ("Go get a coffee :)  ...")
 tickets = []
 paid = tickets_sold*3
