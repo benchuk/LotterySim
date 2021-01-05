@@ -60,7 +60,7 @@ print()
 
 # the computer picks the numbers for each ticket sold
 # tickets_sold = 500
-tickets_sold = 1000
+tickets_sold = 10000
 print ("Go get a coffee :)  ...")
 tickets = []
 paid = tickets_sold*3
@@ -68,7 +68,7 @@ paid = tickets_sold*3
 quick = False
 appendedBins  = [0] * 7
 # retriesMax = 10000
-retriesMax = 50000
+retriesMax = 10000
 for k in range(tickets_sold):
     allow_max_match_count = 0
     #D print ("Calc ticket ...{0}".format(k))
