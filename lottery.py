@@ -42,8 +42,8 @@ def match_lists(list1, list2):
     
     
 # the user picks the 6 winning numbers
-# user_list = user_random()
-user_list = computer_random()
+user_list  = user_random()
+#user_list = computer_random()
 print ("Winning numbers:", user_list)
 
 # set up counters for 3 to 6 matches
@@ -60,7 +60,7 @@ print()
 
 # the computer picks the numbers for each ticket sold
 # tickets_sold = 500
-tickets_sold = 10000
+tickets_sold = 5000
 print ("Go get a coffee :)  ...")
 tickets = []
 paid = tickets_sold*3
@@ -68,7 +68,7 @@ paid = tickets_sold*3
 quick = False
 appendedBins  = [0] * 7
 # retriesMax = 10000
-retriesMax = 10000
+retriesMax = 10
 for k in range(tickets_sold):
     allow_max_match_count = 0
     #D print ("Calc ticket ...{0}".format(k))
